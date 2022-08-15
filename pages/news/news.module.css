@@ -1,0 +1,42 @@
+.image {
+  width: 50%;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  min-width: 300px;
+}
+
+.date {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height:1;
+  letter-spacing: -0.0002px;
+  text-transform: uppercase;
+  color: #6A6A6A;
+  margin: 40px 0;
+}
+
+.text {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #000;
+  margin: 0;
+}
+
+.goback {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  color: #0000ee;
+  margin: 40px 0 0;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .date { font-size: 14px; margin: 20px 0; }
+  .text { font-size: 14px; }
+  .goback { margin: 20px 0 0; }
+}

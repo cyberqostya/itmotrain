@@ -1,0 +1,7 @@
+.newslist {
+  display: grid;
+  grid-gap: 40px 32px;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 382px));
+  justify-content: center;
+  margin-bottom: 70px;
+}
